@@ -1,0 +1,12 @@
+.header-products {
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+    padding: 10px 35px;
+    background-color: #d9d9d9;
+    
+}
+
+.right {
+    float: left;
+}

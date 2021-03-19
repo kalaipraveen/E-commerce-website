@@ -1,0 +1,54 @@
+.header-main {
+    width: 100%;
+    padding: 5px;
+    height: 79px;
+    position: relative;
+    z-index: 999999;
+    background: #e9ffb3;
+    clear: both;
+}
+
+#fnp-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 163px;
+    padding-left: 30px;
+}
+
+.header-main-carts{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    list-style: none;
+    padding-right: 50px;
+}
+/*#userlogo{
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 163px;
+    
+   
+}
+#cart-logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 163px;
+}
+
+#header-carts {
+    float: right;
+    height: 70px;
+    padding: 12px;
+    max-height: 70px;
+    vertical-align: top;   
+}
+
+#header-carts li {
+    min-width: 85px;
+    max-width: 105px;
+    position: relative;
+    text-align: center;
+}*/
