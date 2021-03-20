@@ -1,5 +1,6 @@
 .category-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 35px 35px 0 35px;
     margin: 0 auto;
