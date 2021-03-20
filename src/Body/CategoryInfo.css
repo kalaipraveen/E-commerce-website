@@ -1,0 +1,41 @@
+.category-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 35px 0 35px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89px;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-size: 26px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-weight: 300;
+}
+
+.mainsubtitle {
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.product-name {
+    text-align: center;
+    padding: 10px;
+}

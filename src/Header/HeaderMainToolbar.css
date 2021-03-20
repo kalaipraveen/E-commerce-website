@@ -4,7 +4,7 @@
     height: 79px;
     position: relative;
     z-index: 999999;
-    background: #e9ffb3;
+    background: rgb(255, 255, 255);
     clear: both;
 }
 
@@ -22,8 +22,9 @@
     float: right;
     list-style: none;
     padding-right: 50px;
+    justify-content: space-around;
 }
-/*#userlogo{
+/* #userlogo{
     display: inline-block;
     vertical-align: middle;
     height: auto;
@@ -50,5 +51,13 @@
     min-width: 85px;
     max-width: 105px;
     position: relative;
-    text-align: center;
+    text-align: center; 
+
 }*/
+.time-logo{
+    min-width: 85px;
+    max-width: 105px;
+    position: relative;
+    text-align: center;
+    
+}

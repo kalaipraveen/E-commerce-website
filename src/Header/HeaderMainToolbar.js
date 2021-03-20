@@ -1,10 +1,10 @@
 import React from 'react'
 import './HeaderMainToolbar.css'
 import fnplogo from '../Images/fnplogo.png'
-//import cartlogo from '../Images/cartlogo.png'
-//import userlogo from '../Images/userlogo.png'
-//import qsmarklogo from '../Images/qsmark.png'
-//import timelogo from '../Images/time.png'
+import cartlogo from '../Images/cartlogo.png'
+import userlogo from '../Images/userlogo.png'
+import qslogo from '../Images/qslogo.png'
+import timelogo from '../Images/timelogo.png'
 
 export default function HeaderMainToolbar() {
     return (
@@ -12,10 +12,26 @@ export default function HeaderMainToolbar() {
             <img id="fnp-logo" src={fnplogo} alt="fnplogo" />
                 <span>
                     <ul className="header-main-carts">
-                        <li className="cart">Need Today?</li>
-                        <li className="cart">Cart</li>
-                        <li className="cart">Hi Guest</li>
-                        <li className="cart">Help Center</li>
+                    <div className="time-logo">
+                    <img src={timelogo} alt="timelogo"></img>
+                    <figcaption>Need Today?</figcaption>
+                    </div>
+                    <div>
+                        <li className="cart"></li>
+                        <img src={cartlogo} alt="cart-logo"></img>
+                        <figcaption>Cart</figcaption>
+                        </div>
+                        <div>
+                        <li className="cart"> </li>
+                        <img src={userlogo} alt="userlogo"></img>
+                        <figcaption>Hi Guest</figcaption>
+                        <li className="userlogo"></li>
+                        </div>
+                        <div>
+                        <img src={qslogo} alt="qslogo"></img>
+                        <figcaption>Help Center</figcaption>
+                        <li className="cart"></li>
+                        </div>
                     </ul>
                 </span>
         </div>

@@ -1,11 +1,19 @@
-.header-products {
+/* .header-products {
     margin: 0 auto;
     max-width: 1600px;
     position: relative;
     padding: 10px 35px;
-    background-color: #d9d9d9;
+    background-color: #d9d9d9; */
+     
+
+ ul.nav li.dropdown:hover ul.dropdown-menu{ 
+         display:inline-block;
+         margin: 0 auto;
+   
+        }
     
-}
+    
+
 
 .right {
     float: left;

@@ -1,0 +1,38 @@
+.aboutfnp-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 35px;
+    text-align: justify;
+    background: #FFF;
+}
+
+.article {
+    display: block;
+    width: 100%;
+    padding: 35px 0 !important;
+}
+
+.article h2 {
+    color: #222;
+    margin: 0 0 10px !important;
+    font-weight: 500 !important;
+}
+
+.article p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.article a {
+    color: #45A4EC;
+}
+
+.aboutfnp-content h2 {
+    font-size: 19px;
+}
+
+.aboutfnp-content p {
+    font-weight: normal;
+}
