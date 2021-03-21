@@ -2,6 +2,11 @@ import React from 'react'
 import Carousel from "react-elastic-carousel";
 import './HeaderBanner.css'
 import slide1 from '../Images/slide1.jpg'
+import Slide2 from '../Images/slide2.jpg'
+import Slide3 from '../Images/slide3.jpg'
+import Slide4 from '../Images/slide4.jpg'
+import Slide5 from '../Images/slide5.jpg'
+import Slide6 from '../Images/slide6.jpg'
 
 
 const breakPoints = [
@@ -16,15 +21,15 @@ export default function HeaderBanner() {
     return (
         <div>
       <Carousel breakPoints={breakPoints}>
-      <div className="App">
-         <img src={slide1} alt=""></img>
+      <div>
+         <img src={slide1} alt="slideone"  className = "Slide-one"></img>
         </div>
-        <div>Slide2</div>
-        <div>Slide3</div>
-        <div>Slide4</div>
-        <div>Slide5</div>
-        <div>Slide6</div>
-        <div>Slide7</div>
+        <div><img src={slide1} alt="slideone"  className = "Slide-one"></img></div>
+        <div><img src={Slide2} alt="slidtwo"  className = "Slide-two"></img></div>
+        <div><img src={Slide3} alt="slidethree"  className = "Slide-three"></img></div>
+        <div><img src={Slide4} alt="slidefour"  className = "Slide-four"></img></div>
+        <div><img src={Slide5} alt="slidefive"  className = "Slide-five"></img></div>
+        <div><img src={Slide6} alt="slidesix"  className = "Slide-six"></img></div>
       </Carousel>
     </div>
   );

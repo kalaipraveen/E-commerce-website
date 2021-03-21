@@ -1,0 +1,40 @@
+.premiumgifts-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+.premiumgifts-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.premiumgifts-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.premiumgifts-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.premiumgifts-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+}
+
+.premiumgiftstiles-name {
+    padding: 15px
+}

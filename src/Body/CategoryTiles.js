@@ -1,6 +1,6 @@
 import React from 'react'
 import './CategoryTiles.css'
-import categorytilesdata from './CategoryTilesData.json'
+import categorytilesdata from './CategoryTilesData'
 
 export default function CategoryTiles() {
     return (

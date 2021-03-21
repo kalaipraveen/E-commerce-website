@@ -1,5 +1,5 @@
 import React from 'react'
-import bestsellersdata from './BestSellerTilesData.json'
+import bestsellersdata from './BestSellerTilesData'
 import './BestSellerTiles.css'
 
 export default function BestSellerTiles() {

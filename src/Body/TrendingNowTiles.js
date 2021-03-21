@@ -1,5 +1,5 @@
 import React from 'react'
-import TrendingNowTilesdata from './TrendingNowTiles.json'
+import TrendingNowTilesdata from './TrendingNowTilesData'
 import './TrendingNowTiles.css'
 
 export default function TrendingNowTiles() {

@@ -4,6 +4,10 @@ import './index.css';
 import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css'
+import "slick-carousel/slick/slick-theme.css"
+//import "~slick-carousel/slick/slick.css"; 
+//import "~slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
   <React.StrictMode>

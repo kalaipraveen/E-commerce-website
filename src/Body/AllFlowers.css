@@ -1,0 +1,38 @@
+.allflowers-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.allflowers-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allflowers-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.allflowers-card {
+    margin-bottom: 20px;
+}
+.allflowers-image {
+    height: 500px;
+    width: 500px;
+    padding: 8px;
+}
+
+.allflowerstiles-name {
+    padding: 15px
+}

@@ -1,16 +1,2 @@
- .App {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 100%;
-  background-color: #ece4fa;
-  color: rgb(95, 246, 252);
-  margin: 15px;
-  font-size: 2em;
-  vertical-align: middle;
-  max-width: 100%;
-  touch-action: pan-y;
 
- }
  

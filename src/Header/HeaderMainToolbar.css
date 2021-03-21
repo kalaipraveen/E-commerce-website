@@ -1,63 +1,37 @@
-.header-main {
+.header-container {
     width: 100%;
-    padding: 5px;
+    width: 100%;
+    padding: 10px 35px;
     height: 79px;
     position: relative;
     z-index: 999999;
-    background: rgb(255, 255, 255);
+    background: #fff;
     clear: both;
 }
 
-#fnp-logo {
-    display: inline-block;
-    vertical-align: middle;
-    height: auto;
-    max-width: 163px;
-    padding-left: 30px;
-}
-
-.header-main-carts{
+.logo-search-container {
     display: flex;
-    flex-direction: row;
-    float: right;
-    list-style: none;
-    padding-right: 50px;
-    justify-content: space-around;
+    float: left;
 }
-/* #userlogo{
-    display: inline-block;
-    vertical-align: middle;
-    height: auto;
-    max-width: 163px;
-    
-   
+
+.header-cards figure {
+    padding-right: 35px;
+    font-size: 13px;
 }
-#cart-logo{
-    display: inline-block;
-    vertical-align: middle;
-    height: auto;
+
+.fnp-logo {
     max-width: 163px;
 }
 
-#header-carts {
-    float: right;
-    height: 70px;
-    padding: 12px;
-    max-height: 70px;
-    vertical-align: top;   
+.cart-logo {
+    padding-left: 13px;
 }
 
-#header-carts li {
-    min-width: 85px;
-    max-width: 105px;
-    position: relative;
-    text-align: center; 
+.search-container {
+    margin-left: 30px;
+}
 
-}*/
-.time-logo{
-    min-width: 85px;
-    max-width: 105px;
-    position: relative;
-    text-align: center;
-    
+.header-cards {
+    display: flex;
+    justify-content: flex-end;
 }

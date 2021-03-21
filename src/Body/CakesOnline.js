@@ -1,6 +1,6 @@
 import React from 'react'
 import './CakesOnline.css'
-import cakesdata from './CakesOnline.json'
+import cakesdata from './CakesOnlineData'
 
 
 export default function CakeOnlineTiles() {

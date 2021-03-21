@@ -8,32 +8,31 @@ import timelogo from '../Images/timelogo.png'
 
 export default function HeaderMainToolbar() {
     return (
-        <div className="header-main">
-            <img id="fnp-logo" src={fnplogo} alt="fnplogo" />
-                <span>
-                    <ul className="header-main-carts">
-                    <div className="time-logo">
-                    <img src={timelogo} alt="timelogo"></img>
+        <div className="header-container">
+            <div className="logo-search-container">
+                <div className="logo-container">
+                    <img className="fnp-logo" src={fnplogo} alt="fnplogo" />
+                </div>
+                <div className="search-container">
+                Search Container</div>
+            </div>
+            <div className="header-cards">
+                <figure>
+                    <img className="fnp-logo cart-logo" src={timelogo} alt="fnplogo" />
                     <figcaption>Need Today?</figcaption>
-                    </div>
-                    <div>
-                        <li className="cart"></li>
-                        <img src={cartlogo} alt="cart-logo"></img>
-                        <figcaption>Cart</figcaption>
-                        </div>
-                        <div>
-                        <li className="cart"> </li>
-                        <img src={userlogo} alt="userlogo"></img>
-                        <figcaption>Hi Guest</figcaption>
-                        <li className="userlogo"></li>
-                        </div>
-                        <div>
-                        <img src={qslogo} alt="qslogo"></img>
-                        <figcaption>Help Center</figcaption>
-                        <li className="cart"></li>
-                        </div>
-                    </ul>
-                </span>
+                </figure>
+                <figure>
+                    <img className="fnp-logo" src={cartlogo} alt="fnplogo" />
+                    <figcaption>Cart</figcaption>
+                </figure>
+                <figure>
+                    <img className="fnp-logo cart-logo" src={userlogo} alt="fnplogo" />
+                    <figcaption>Hi Guest</figcaption></figure>
+                <figure>
+                    <img className="fnp-logo cart-logo" src={qslogo} alt="fnplogo" />
+                    <figcaption>Help Center</figcaption>
+                </figure>
+            </div>
         </div>
     )
 }
