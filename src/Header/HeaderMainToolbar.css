@@ -29,6 +29,12 @@
 
 .search-container {
     margin-left: 30px;
+    float: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 25vw;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .header-cards {
