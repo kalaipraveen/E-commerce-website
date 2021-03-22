@@ -31,6 +31,8 @@
     height: 500px;
     width: 500px;
     padding: 8px;
+    cursor:pointer;
+
 }
 
 .giftfor-name {

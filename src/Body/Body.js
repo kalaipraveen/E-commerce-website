@@ -13,9 +13,12 @@ import OnlinePlants from './OnlinePlants'
 import ComboGifts from './ComboGifts'
 import GiftFor from './GiftsFor'
 import SendGiftsAbroad from './SendGiftsAbroad'
+import QuickSearchForm from './QuickSearchForm'
 
 export default function Body() {
   return (
+   <div className="content-container">
+    <QuickSearchForm />
     <div className="main-content">
       <CategoryInfo />
       <CategoryTiles />
@@ -30,6 +33,7 @@ export default function Body() {
       <ComboGifts />
       <GiftFor />
       <SendGiftsAbroad />
+    </div>
     </div>
   )
 }

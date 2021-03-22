@@ -11,6 +11,7 @@ export default function Header() {
                 <HeaderInfoToolbar />
                 <HeaderMainToolbar />
                 <ImageSlider slides = {SliderData} />
+                
             </div>
     )
 }

@@ -5,7 +5,6 @@ import cartlogo from '../Images/cartlogo.png'
 import userlogo from '../Images/userlogo.png'
 import qslogo from '../Images/qslogo.png'
 import timelogo from '../Images/timelogo.png'
-
 export default function HeaderMainToolbar() {
     return (
         <div className="header-container">
@@ -14,7 +13,7 @@ export default function HeaderMainToolbar() {
                     <img className="fnp-logo" src={fnplogo} alt="fnplogo" />
                 </div>
                 <div className="search-container">
-                Search Container</div>
+                </div>
             </div>
             <div className="header-cards">
                 <figure>

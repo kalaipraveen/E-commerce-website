@@ -11,7 +11,7 @@
 
 .logo-search-container {
     display: flex;
-    float: left;
+    float:left;
 }
 
 .header-cards figure {
@@ -35,3 +35,4 @@
     display: flex;
     justify-content: flex-end;
 }
+

@@ -1,0 +1,93 @@
+    .searchform-card{
+        width: 60vw;
+        height: 13vh;
+        margin: 10px 250px 0 250px;
+        padding: 0 10px;
+        background: #fff;
+        /* text-align: center; */
+        border-radius: 4px;
+        overflow: hidden;
+        align-items: center;
+        box-shadow: 0 4px 80px rgb(0 0 0 / 20%);
+        display: flex;
+        justify-content: space-around;
+
+    }
+  .button-1{
+    float: left;
+    width: 100%;
+    padding: 15px 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+ 
+  }
+  .button-2{
+    float: left;
+    width: 100%;
+    padding: 15px 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+ 
+  }
+  .button-3{
+    display: inline-block;
+    background: #ff9212;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    padding: 10px 10px;
+    border-radius: 4px;
+    width: 100%;
+    border: 0;
+    height: 50px;
+    transition: all ease-in-out 0.25s;
+  }
+  .table{
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .table-head {
+    color: #222;
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .sub-content {
+      font-weight: 100;
+  }
+
+  .no-border {
+    padding: 20px;
+    border: none;
+    background: #ff9212;
+  }
+
+  .gift-text{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
