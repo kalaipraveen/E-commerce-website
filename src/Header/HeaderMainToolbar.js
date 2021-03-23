@@ -28,23 +28,6 @@ export default function HeaderMainToolbar() {
                     <td className="header-cards-data">Hi Guest</td>
                 </tr>
             </table>
-            {/**<div className="header-cards">
-                        <figure>
-                            <img className="fnp-logo cart-logo" src={timelogo} alt="fnplogo" />
-                            <figcaption>Need Today?</figcaption>
-                        </figure>
-                        <figure>
-                            <img className="fnp-logo" src={cartlogo} alt="fnplogo" />
-                            <figcaption>Cart</figcaption>
-                        </figure>
-                        <figure>
-                            <img className="fnp-logo cart-logo" src={userlogo} alt="fnplogo" />
-                            <figcaption>Hi Guest</figcaption></figure>
-                        <figure>
-                            <img className="fnp-logo cart-logo" src={qslogo} alt="fnplogo" />
-                            <figcaption>Help Center</figcaption>
-                        </figure>
-            </div> */}
         </div>
     )
 }
