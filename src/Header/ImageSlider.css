@@ -1,8 +1,15 @@
 .slider {
   position: relative;
-  display: flex;
   justify-content: center;
   align-items: center;
+  background: #f8f8f8;
+  text-align: right;
+  font-size: 14px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+  padding: 10px 60px 0px 60px;
 }
   
   .image {
@@ -15,7 +22,7 @@
     top: 50%;
     right: 32px;
     font-size: 3rem;
-    color: #000;
+    color: #f2dede;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -26,14 +33,14 @@
     top: 50%;
     left: 32px;
     font-size: 3rem;
-    color: #000;
+    color: #f2dede;
     z-index: 10;
     cursor: pointer;
     user-select: none;
   }
   
   .slide {
-    opacity: 1;
+    opacity: 0;
     transition-duration: 1s ease;
   }
   

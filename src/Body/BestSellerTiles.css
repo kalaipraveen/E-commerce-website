@@ -43,6 +43,7 @@
     height: 250px;
     width: 250px;
     padding: 8px;
+    cursor: pointer;
 }
 
 .bestsellerstiles-name {

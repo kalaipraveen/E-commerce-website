@@ -1,0 +1,37 @@
+.card{
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    position: relative;
+    padding: 0px 35px;
+    background-color: whitesmoke;
+    height: 62px;
+
+}
+.wrapper-info {
+    background: #f8f8f8;
+    position: relative;
+    padding: 10px 35px 10px 35px;
+}
+.wrapper-info ul {
+    display: inline-block;
+    list-style: none; 
+}
+.wrapper-info > ul {
+    display: inline-block;
+    list-style: none; 
+}
+.wrapper-info li {
+    text-align: left;
+    position: relative;
+    margin: 0 8px;
+    color: #222;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+.wrapper-info li {
+    padding-right: 28px;
+}

@@ -27,11 +27,12 @@
 
 .allflowers-card {
     margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
 }
 .allflowers-image {
-    height: 500px;
-    width: 500px;
+    width: 100%;
     padding: 8px;
+    cursor: pointer;
 }
 
 .allflowerstiles-name {

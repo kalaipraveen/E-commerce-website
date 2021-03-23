@@ -14,7 +14,21 @@ export default function HeaderMainToolbar() {
                     <input class="search-container" type="search" placeholder="search flowersl, cakes, gifts etc" />
                 </div>
             </div>
-                    <div className="header-cards">
+            <table className="header-cards">
+                <tr>
+                    <th className="header-cards-data"><img src={timelogo} alt="fnplogo" /></th>
+                    <th className="header-cards-data"><img src={cartlogo} alt="fnplogo" /></th>
+                    <th className="header-cards-data"><img src={userlogo} alt="fnplogo" /></th>
+                    <th className="header-cards-data"><img src={qslogo} alt="fnplogo" /></th>
+                </tr>
+                <tr>
+                    <td className="header-cards-data">Need Today?</td>
+                    <td className="header-cards-data">cart</td>
+                    <td className="header-cards-data">Hi Guest</td>
+                    <td className="header-cards-data">Hi Guest</td>
+                </tr>
+            </table>
+            {/**<div className="header-cards">
                         <figure>
                             <img className="fnp-logo cart-logo" src={timelogo} alt="fnplogo" />
                             <figcaption>Need Today?</figcaption>
@@ -30,7 +44,7 @@ export default function HeaderMainToolbar() {
                             <img className="fnp-logo cart-logo" src={qslogo} alt="fnplogo" />
                             <figcaption>Help Center</figcaption>
                         </figure>
-                    </div>
-                </div>
+            </div> */}
+        </div>
     )
 }
