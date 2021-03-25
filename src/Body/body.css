@@ -13,3 +13,161 @@
     max-width: 1600px;
     padding: 0 35px 30px 35px;
 }
+
+/************Category Info****************/
+.category-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 35px 35px 0 35px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89px;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-size: 26px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-weight: 300;
+}
+
+.mainsubtitle {
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+
+}
+
+.product-name {
+    text-align: center;
+    padding: 10px;
+}
+
+/************Category Tiles****************/
+.catagory-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+.category-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-all {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #008539;
+    color: #fff;
+    transition: all ease-in-out 0.25s;
+}
+
+.category-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.category-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.catagorytiles-name {
+    padding: 15px
+}
+
+/************Trending now tiles****************/
+.trendingnow-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+.trendingnow-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trendingnow-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.trendingnow-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.trendingnow-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.trendingnowtiles-name {
+    padding: 15px
+}
+ .trendingnowtiles-description{
+     display: contents;
+     font-size: 20px solid;
+     
+ }
+/************Best seller tiles****************/
+/************Cakes online****************/
+/************Premium gifts****************/
+/************All flowers****************/
+/************Personilized gifts****************/
+/************Digital Gifts****************/
+/************Online Plants****************/
+/************Combo Gifts****************/
+/************Gift for****************/
+/************Send gifts abroad****************/

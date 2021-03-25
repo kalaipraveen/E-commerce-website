@@ -35,3 +35,263 @@
     z-index: 99999;
     background: #fff;
   }
+
+
+  /********************* Header Info Toolbar ********************/
+  .header-info {
+    background: #f8f8f8;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    z-index: 9999999;
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+    padding: 0px 35px 0 35px;
+    
+
+}
+.header-info ul {
+    display: inline-block;
+    list-style: none; 
+}
+.header-info > ul {
+    display: inline-block;
+    list-style: none; 
+    margin: 0 auto;
+}
+.header-info li {
+    text-align: left;
+    position: relative;
+    margin: 0 8px;
+    color: #222;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+.header-info li:not(:last-child):after  {
+    content: "  |";
+}
+
+
+/********************* Header main Toolbar ********************/
+.header-container {
+  width: 100%;
+  padding: 10px 35px;
+  height: 79px;
+  position: relative;
+  z-index: 999999;
+  background: #fff;
+  clear: both;
+}
+
+.logo-search-container {
+  display: flex;
+  float:left;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.header-cards figure {
+  padding-right: 35px;
+  font-size: 13px;
+}
+
+.fnp-logo {
+  max-width: 163px;
+  cursor: pointer;
+}
+
+.cart-logo {
+  padding-left: 13px;
+  cursor: pointer;
+
+}
+.search-container {
+  margin-left: 30px;
+  float: right;
+  margin-top: 10px;
+}
+
+.search-input {
+  float: left;
+  font-weight: normal;
+  color: rgba(0,0,0,0.75);
+  font-size: 13px;
+  width: 300px;
+  margin: 0;
+  height: auto;
+  transition: none;
+  vertical-align: middle;
+  border: 1px solid #bbb;
+  border-right: 0;
+  box-shadow: 0 0 5px rgb(0 0 0 / 20%) inset;
+  border-radius: 4px 0 0 4px;
+  max-height: 40px;
+  min-height: 40px;
+  background: #fdfdfd;
+  transition: all ease-in-out .25s;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#searchbtn {
+  background: #ff9212;
+  min-height: 40px;
+  max-height: 40px;
+  width: 41px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 0 0 -1px;
+  min-width: auto;
+  color: #fff;
+  border: 1px solid #ff9212;
+  float: left;
+  line-height: 40px;
+  right: 0;
+  border-radius: 0 4px 4px 0;
+  transition: all ease-in-out .25s;
+}
+.search-style {
+  margin: 6px 4px 5px 4px;
+}
+
+.header-cards {
+  float: right;
+}
+
+.header-cards-data {
+  padding-right: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.delivery-container {
+  background-color: #008539;
+  color: #fff;
+  float: right;
+  display: inline-flex;
+  justify-content: space-between;
+  min-width: 0;
+  min-height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 12px 0 0 16px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.locationlock-btn {
+  display: inline-flex;
+  justify-content: space-between;
+  min-width: 0;
+  min-height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 12px 0 0 16px;
+  padding: 5px;
+  align-items: center;
+}
+
+.generic-green-btn {
+  background-color: #008539;
+  color: #fff;
+}
+.custom-generic-btn, .product-switch-btn {
+  min-height: 44px;
+  min-width: 35%;
+  font-size: 12px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 8px;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.locationlock-btn i {
+  font-size: 16px;
+  padding-right: 3px;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+span {
+  display: inline-block;
+}
+
+.locationlock-btn i {
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+/********************* Header wrapper Toolbar ********************/
+.wrapper-info {
+  background: #f8f8f8;
+  position: relative;
+  padding: 10px 35px 10px 35px;
+}
+.wrapper-info ul {
+  display: inline-block;
+  list-style: none; 
+}
+.wrapper-info > ul {
+  display: inline-block;
+  list-style: none; 
+      margin: 0 auto;
+}
+.wrapper-info li {
+  text-align: left;
+  position: relative;
+  margin: 0 8px;
+  color: #222;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+}
+
+.wrapper-info li {
+  padding-right: 28px;
+}
