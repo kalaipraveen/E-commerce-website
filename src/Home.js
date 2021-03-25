@@ -1,5 +1,5 @@
-//import logo from './logo.svg';
-//import './Home.css';
+
+import './Home.css';
 import Header from './Header/Header';
 import Body from './Body/Body';
 import Footer from './Footer/Footer';
@@ -7,9 +7,9 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="Home">
-      <Header/>
-      <Body/>
-      <Footer/>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }

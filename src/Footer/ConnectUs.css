@@ -1,12 +1,167 @@
-.connectus-content {
-    height: 400px;
-    display: block;
+#footerline1 {
+    display: table;
     width: 100%;
-    padding-top: 64px;
+    background-color:#f2f2f2;
+    border-bottom: 1px solid #fff;
+}
+
+#connections {
+    display: table-row;
+    width: 100%;
+}
+
+ul#connections>li {
+    display: table-cell;
+    vertical-align: top;
+    padding: 32px;
     text-align: center;
+    width: 33.33%;
+}
+
+#footerline2, #footerline3 {
+    text-align: center;
+    padding: 32px 0;
+    text-align: center;
+    padding: 32px 0;
     background: #f2f2f2;
-    padding-bottom: 40px;
-    margin: 0 auto;
-    max-width: 1600px;
-    padding: 10px 35px 30px 35px;
+}
+
+#footerline3 {
+    padding-bottom: 16px;
+    background-color: #f2f2f2;;
+}
+
+#footerline2, #footerline3 {
+    text-align: center;
+    padding: 32px 0;
+}
+
+#footerline2 img {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #fff;
+} 
+
+#subscribeform {
+    text-align: center;
+    position: relative;
+    margin: 0 12%;
+}
+
+#subscribeform>input {
+    font-weight: 300;
+    padding: 10.5px 6.67px 6.67px 39.64px;
+    background: url(https://i7.fnp.com/assets/images/simpee-footer-sprite.png) -210px 10px no-repeat;
+    background-color: #fff;
+    border: 1px solid #a3a5a6;
+    border-right-width: 0;
+    width: 186px;
+    display: inline-block;
+    min-height: 37px;
+    margin: 0;
+}
+
+input {
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+#subscribeform>button {
+    border-radius: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #f78828;
+    color: #f9f9f9;
+    border: 1px solid #da7532;
+    padding: 0 16px;
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    width: auto;
+    margin: 0 -4px 0;
+}
+
+#subscribeform .alert-box.alert.alert-bottom {
+    width: 210px;
+    z-index: 10;
+    position: absolute;
+    left: 26px;
+    text-align: left;
+    background: #db3638;
+    border-color: #db3638;
+}
+
+.alert-box.alert, .alert-box {
+    position: absolute;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 12PX;
+    color: #fff;
+    background: #db3638;
+    border-color: #db3638;
+}
+
+.postfix {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: .875rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.no-one {
+    display: none;
+}
+
+#morelinks>li {
+    display: inline-block;
+}
+
+#morelinks>li>a {
+    color: #666;
+    font-size: 12px;
+    margin: 4px;
+}
+#morelinks>li::after{
+    content: "|";
+}
+
+.fb {
+    color: darkblue;
+    cursor: pointer;
+}
+.tw {
+    color: rgb(9, 176, 241);
+    cursor: pointer;
+}
+.pi {
+    color: rgb(238, 129, 5);
+    cursor: pointer;
+}
+.ig {
+    color:rgb(226, 11, 208);
+    cursor: pointer;
+}
+.payment{
+    height: 31px;
+    width: 45px;
+    padding-right: 4px;
+}
+
+#copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.right-border {
+    border-right: 1px solid #fff;
 }

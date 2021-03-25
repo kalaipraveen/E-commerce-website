@@ -12,9 +12,9 @@
   padding: 10px 60px 0px 60px;
 }
   
-  .image {
+  .slide-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   .right-arrow {
@@ -41,11 +41,11 @@
   
   .slide {
     opacity: 0;
-    transition-duration: 1s ease;
+    transition-duration: 0.5s ease;
   }
   
   .slide.active {
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transform: scale(1.08);
   }
