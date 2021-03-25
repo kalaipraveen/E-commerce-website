@@ -11,7 +11,7 @@
 }
 
 ul#connections>li {
-    display: table-cell;
+    display:inline-table;
     vertical-align: top;
     padding: 18px;
     text-align: center;

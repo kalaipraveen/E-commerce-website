@@ -14,8 +14,8 @@ import Footerlinetwo from '../Images/footerlinetwo.PNG'
 
 export default function ConnectUs() {
     return (
-        <div>
-            <div id="footerline1">
+        <div className="footer-maincontent">
+             <div id="footerline1">
                 <ul id="connections">
                     <li className="subscribe right-border">
                         <h6>SIGN UP FOR EMAIL OFFERS &amp; UPDATES</h6>

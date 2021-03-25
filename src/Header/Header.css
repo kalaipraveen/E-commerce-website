@@ -26,3 +26,12 @@
       padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
     }
   }
+
+  .header-sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background: #fff;
+  }
