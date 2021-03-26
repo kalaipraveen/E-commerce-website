@@ -162,12 +162,561 @@
      
  }
 /************Best seller tiles****************/
+.bestsellers-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+.bestsellers-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-all {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #008539;
+    color: #fff;
+    transition: all ease-in-out 0.25s;
+}
+
+.bestsellers-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bestsellers-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.bestsellers-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.bestsellerstiles-name {
+    padding: 15px
+}
+
 /************Cakes online****************/
+.cakes-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.cakes-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cakes-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cakes-card {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+.cakes-image {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.cakestiles-name {
+    padding: 15px
+}
+
 /************Premium gifts****************/
+.premiumgifts-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+
+.premiumgifts-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.premiumgifts-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.premiumgifts-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.premiumgifts-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.premiumgiftstiles-name {
+    padding: 15px
+}
+
 /************All flowers****************/
+.allflowers-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+
+.allflowers-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allflowers-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.allflowers-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+.allflowers-image {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.allflowerstiles-name {
+    padding: 15px
+}
+
 /************Personilized gifts****************/
+.sendgiftsabroad-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.sendgiftsabroad-title {
+    width: 100%;
+    text-align: left;
+    padding:20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    
+}
+
+.sendgiftsabroad-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+.sendgiftsabroad-card {
+    margin-bottom: 20px;
+}
+.sendgiftsonline-title{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendgiftsabroad-image{
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);    
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-size: 1000%;
+    transition: all ease-in-out 0.25s;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+
+.sendgiftsabroad-name {
+    text-align: center;
+    padding: 10px;
+}
+
 /************Digital Gifts****************/
+.digitalgifts-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+.view-all {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #008539;
+    color: #fff;
+    transition: all ease-in-out 0.25s;
+}
+
+.digitalgifts-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.digitalgifts-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.digitalgifts-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.digitalgifts-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.digitalgifts-name {
+    padding: 15px
+}
+
 /************Online Plants****************/
+.onlineplants-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.onlineplants-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.onlineplants-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.onlineplants-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+.onlineplants-image {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.onlineplantstiles-name {
+    padding: 15px
+}
+
 /************Combo Gifts****************/
+.combogifts-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
+.view-all {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #008539;
+    color: #fff;
+    transition: all ease-in-out 0.25s;
+}
+
+.combogifts-title {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+
+.combogifts-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.combogifts-card {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 20px;
+}
+.combogifts-image {
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.combogifts-name {
+    padding: 15px
+}
+
 /************Gift for****************/
+.giftfor-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.giftfor-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giftfor-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.giftfor-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+.giftfor-image {
+    width: 100%;
+    padding: 8px;
+    cursor:pointer;
+}
+
+.giftfor-name {
+    padding: 15px
+}
+
 /************Send gifts abroad****************/
+.sendgiftsabroad-tiles {
+    display: block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.sendgiftsabroad-title {
+    width: 100%;
+    text-align: left;
+    padding:20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    
+}
+
+.sendgiftsabroad-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+.sendgiftsabroad-card {
+    margin-bottom: 20px;
+}
+.sendgiftsonline-title{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendgiftsabroad-image{
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);    
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-size: 1000%;
+    transition: all ease-in-out 0.25s;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+
+.sendgiftsabroad-name {
+    text-align: center;
+    padding: 10px;
+}
+
+/************Quick Search Form****************/
+.searchform-card {
+    height: 13vh;
+    margin: 0px 250px 0 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 999999;
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+    padding: 10px 60px 0px 60px;
+    cursor: pointer;
+  }
+    
+    .searchform-head{
+      padding: 15px 20px;
+      background: #fff;
+      border-radius: 5px;
+      overflow: hidden;
+      display: table;
+      width: 100%;
+      margin-bottom: 40px;    
+    }
+  
+   table {
+      border-collapse: separate !important;
+      text-indent: initial !important;
+      border-spacing: 2px !important;
+   }
+  
+   .table-head {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    text-align: center;
+    background: #F6F6F6;
+   }
+   
+    .sub-content {
+        font-weight: 100;
+    }
+  
+    .no-border {
+      padding: 12px;
+      border: none;
+      background: #ff9212;
+    }
+  
+    .gift-text{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .occasion-icon1{
+      margin: 4px 9px -3px 16px;
+    }
+  .occasion-icon2{
+    margin: 4px 9px -3px 16px;
+  }

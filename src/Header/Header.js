@@ -66,7 +66,7 @@ function HeaderMainToolbar() {
                     <td className="header-cards-data">Need Today?</td>
                     <td className="header-cards-data">cart</td>
                     <td className="header-cards-data">Hi Guest</td>
-                    <td className="header-cards-data">Hi Guest</td>
+                    <td className="header-cards-data">Help Center</td>
                 </tr>
             </table>
         </div>
