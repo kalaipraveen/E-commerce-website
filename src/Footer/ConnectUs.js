@@ -72,7 +72,7 @@ export default function ConnectUs() {
                     <li> <a href="/">Care Guide</a></li>
                     <li> <a href="/">HTML sitemap</a></li>
                 </ul>
-                <p id="copyright">Copyright © 2021 www.codingmart-fnp.netlify.app. All rights reserved.</p>
+                <p id="copyright">Copyright © 2021 www.ecommerce-website-fnp.netlify.app. All rights reserved.</p>
             </div>
         </div>
     )
