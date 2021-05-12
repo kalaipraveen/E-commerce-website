@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageSlider from './ImageSlider'
-import { SliderData } from './SliderData'
 import './Header.css'
 
 //Header info toolbar and Header wrapper
@@ -22,7 +21,7 @@ export default function Header() {
             <HeaderInfoToolbar />
             <HeaderMainToolbar />
             <HeaderWrapper />
-            <ImageSlider slides={SliderData} />
+             <ImageSlider />
         </div>
     )
 }
@@ -30,7 +29,7 @@ export default function Header() {
 function HeaderInfoToolbar() {
     return (
         <div className="header-info">
-            <ul>
+         <ul>
                 <li>Currency  INR <ArrowDropDownIcon /> </li>               
                 <li>Corporate Gifts</li>
                 <li>More <ArrowDropDownIcon /></li>
@@ -77,7 +76,6 @@ function HeaderWrapper() {
     return (
             <div className="wrapper-info">
                 <ul>
-                    <li>Holi <ArrowDropDownIcon /></li>
                     <li>Birthday <ArrowDropDownIcon /></li>
                     <li>Anniversary <ArrowDropDownIcon /></li>
                     <li>Cakes <ArrowDropDownIcon /></li>

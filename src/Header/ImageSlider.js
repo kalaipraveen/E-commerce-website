@@ -1,43 +1,51 @@
-import React, {useState} from 'react'
-import { SliderData } from './SliderData'
-import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
-import './ImageSlider.css'
+import React from 'react'
 
-
-const ImageSlider = ({slides}) => {
-  const [current, setCurrent] = useState(0)
-  const length =slides.length;
-
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
-
+export default function ImageSlider() {
   return (
-    
-    <section className='slider' >
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index} >
-            {index === current && (
-              <img src={slide.image} alt="" className='slide-image' />
-            )}
-          </div>
-        );
-      })}
-    </section>
-  );
-};
+    <div>
+      <div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-export default ImageSlider;
+
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+          </ul>
+
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/plants-desk-12-may-2021.jpg" alt="Los Angeles" width="100%" height="100%" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/SameDayDelivery1md2_3may_.jpg" alt="Chicago" width="100%" height="100%" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/video-messages-Desk-17-mar-2021.jpg" alt="New York" width="100%" height="100%" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/birthday-desk-banner-20-apr-2021.jpg" alt="New York" width="100%" height="100%" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/Combos-Desk-25-feb-2021.jpg" alt="New York" width="100%" height="100%" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://i7.fnp.com/assets/images/custom/new-desk-home/hero-banners/PersonalisedGifts1md2_3may_.jpg" alt="New York" width="100%" height="100%" />
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+}
